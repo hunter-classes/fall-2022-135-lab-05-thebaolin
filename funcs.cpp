@@ -17,7 +17,7 @@ bool isPrime(int n){
 }
 
 int nextPrime(int n){
-  int num = n;
+  int num = n+1;
     bool programfinished = false;
     while(!isPrime(num)){
       num++;
