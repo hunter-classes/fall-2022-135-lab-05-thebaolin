@@ -6,8 +6,7 @@
 
 TEST_CASE("Testing isDivisibleBy"){
     CHECK(isDivisibleBy(100,25) == true);
-    //CHECK(isDivisibleBy(0,0) == true); edge cases
-    //CHECK(isDivisibleBy(1,0) == false); edge cases
+    CHECK(isDivisibleBy(25,0) == false);
     CHECK(isDivisibleBy(1,1) == true);
     CHECK(isDivisibleBy(42,76) == false);
     CHECK(isDivisibleBy(16,144) == false);

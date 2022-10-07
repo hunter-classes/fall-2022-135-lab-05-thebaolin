@@ -1,24 +1,22 @@
 #include <iostream>
-
-
 #include "funcs.h"
-using namespace std; //remember to get rid of this later
+ //remember to get rid of this later
 
 int main()
 {
   if(isDivisibleBy(100,25))
-    cout<<"Yes"<<endl;
+    std::cout<<"Yes"<<std::endl;
   else
-    cout<<"No"<<endl;
+    std::cout<<"No"<<std::endl;
 
   if(isPrime(7));
-    cout<<"Yes"<<endl;
+    std::cout<<"Yes"<<std::endl;
 
-  cout<<nextPrime(14)<<endl;
-  cout<<countPrimes(2,7)<<endl;
-  cout<<isTwinPrime(3)<<endl;
-  cout<<nextTwinPrime(7)<<endl;
-  cout<<largestTwinPrime(14, 16)<<endl;
+  std::cout<<nextPrime(14)<<std::endl;
+  std::cout<<countPrimes(2,7)<<std::endl;
+  std::cout<<isTwinPrime(3)<<std::endl;
+  std::cout<<nextTwinPrime(7)<<std::endl;
+  std::cout<<largestTwinPrime(14, 16)<<std::endl;
 
   return 0;
 }

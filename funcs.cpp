@@ -2,6 +2,9 @@
 #include "funcs.h"
 
 bool isDivisibleBy(int n, int d){
+  //divide by zero
+  if(d == 0)
+    return false;
   if(n % d == 0)
     return true;
   else
